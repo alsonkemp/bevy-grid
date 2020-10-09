@@ -1,0 +1,14 @@
+[package]
+name = "bevy-grid"
+version = "0.0.1"
+authors = ["Alson Kemp <alson@alsonkemp.com>"]
+edition = "2018"
+
+[dependencies]
+bevy             = { version = "0.2.1", features = ['render'] }
+
+
+
+[[example]]
+name = "twobytwo"
+path = "examples/twobytwo.rs"
